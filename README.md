@@ -1,2 +1,2 @@
 # portfolio
-Personal portfolio for explainings projects I worked for.
+Personal portfolio for explaining projects I worked for.
