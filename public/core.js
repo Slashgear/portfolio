@@ -11,7 +11,7 @@ angular.module('jm.i18next').config(['$i18nextProvider', function ($i18nextProvi
     };
 }]);
 
-var portfolio = angular.module('portfolio',['jm.i18next','ngRoute','ngSanitize','angular-google-analytics'])
+var portfolio = angular.module('portfolio',['jm.i18next','ngRoute','ngSanitize','angular-google-analytics','ui.bootstrap'])
 .config(function(AnalyticsProvider) {
         AnalyticsProvider.setAccount('UA-XXXXX-xx');
         AnalyticsProvider.trackPages(true);
@@ -104,9 +104,31 @@ portfolio.controller('contactController',function ($scope,$http) {
 });
 
 portfolio.controller('cursusController',function ($scope,$i18next) {
-
 });
 
 portfolio.controller('projectsController',function ($scope,$i18next) {
+});
 
-})
+portfolio.controller('modalPreviewController',function ($scope, $modal) {
+  $scope.url="";
+  $scope.open = function ($event,size) {
+   $scope.url=angular.element($event.currentTarget).data('url');
+   var modalInstance = $modal.open({
+     animation: true,
+     templateUrl: 'myModalContent.html',
+     controller: 'modalInstanceController',
+     size: size,
+     resolve:{
+       url: function () {
+         return $scope.url;
+       }
+     }
+   })};
+});
+
+portfolio.controller('modalInstanceController',function ($scope, $modalInstance,url) {
+  $scope.url=url;
+  $scope.ok = function () {
+   $modalInstance.close();
+ };
+});

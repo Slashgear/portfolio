@@ -7,6 +7,8 @@
   "age":"22 ans",
   "status":"Étudiant en ingénierie informatique à Polytech Lyon",
   "exempletitle":"Exemple de réalisation",
+  "image":"Prévisualisation",
+  "close":"fermer",
   "mail":{
     "legend":"Contactez-moi",
     "name":"Nom",

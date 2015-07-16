@@ -30,6 +30,9 @@ div.justify p{
   margin-bottom: 5%;
 }
 
+.img-raised:hover{
+  box-shadow: 0 16px 28px 0 rgba(0,0,0,.22),0 25px 55px 0 rgba(0,0,0,.21);
+}
 .img-sp-bt{
   margin-bottom: 15px;
 }
