@@ -51,7 +51,7 @@ portfolio.config(function ($routeProvider) {
     });
 });
 
-portfolio.controller('mainController', function($scope,$i18next) {
+portfolio.controller('mainController', function($scope,$i18next,$location,$anchorScroll) {
   angular.element(document).ready(function () {
       $.material.init();
   });
@@ -61,6 +61,10 @@ portfolio.controller('mainController', function($scope,$i18next) {
   $scope.setFr = function() {
     $i18next.options.lng = 'fr';
   };
+  $scope.goForm =  function(){
+    $location.hash('Contact');
+    $anchorScroll();
+  }
 });
 
 var param = function(data) {
