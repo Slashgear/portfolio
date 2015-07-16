@@ -1,0 +1,73 @@
+
+
+
+<!doctype html>
+<html ng-app="portfolio">
+<head>
+  <base href="/">
+  <meta charset="UTF-8">
+  <meta name="description" content="Portfolio de présentation des création d'Antoine Caron.">
+  <meta name="keywords" content="HTML,CSS,JSON,JavaScript,Angular,PHP,Contact">
+  <meta name="author" content="Antoine Caron">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='public/img/favicon.ico' rel='icon'/>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+  <script src="bower_components/i18next/i18next.min.js"></script>
+  <script src="bower_components/ng-i18next/dist/ng-i18next.min.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-google-analytics/dist/angular-google-analytics.min.js"></script>
+
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+  <link href="bower_components/bootstrap-material-design/dist/css/roboto.css" rel="stylesheet">
+  <link href="bower_components/bootstrap-material-design/dist/css/material.min.css" rel="stylesheet">
+  <link href="bower_components/bootstrap-material-design/dist/css/material-fullpalette.min.css" rel="stylesheet">
+  <link href="bower_components/bootstrap-material-design/dist/css/ripples.css" rel="stylesheet">
+  <link href="public/css/main.css" rel="stylesheet">
+
+  <title>Antoine Caron - Portfolio</title>
+</head>
+<body ng-controller="mainController">
+<header>
+  <div class="navbar navbar-material-blue-grey">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#/">Antoine Caron</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-inverse-collapse">
+      <ul class="nav navbar-nav">
+    <li><a href="#/cursus" ng-i18next>cursus</a></li>
+    <li><a href="#/projects" ng-i18next>projet</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <a href="bootstrap-elements.html" data-target="#" class="dropdown-toggle" data-toggle="dropdown">
+                  {{'language'| i18next}}
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a ng-click="setFr()"><img src="public/img/Flag_of_France.svg.png" class="img-responsive flags center-block" alt="French Flag"/></a></li>
+                    <li><a ng-click="setEn()"><img src="public/img/langage-anglais-drapeau.png" class="img-responsive flags center-block" alt="US/GB Flag"/></a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+  </div>
+</header>
+<div class="container">
+    <div class="row">
+        <div ng-view></div>
+    </div>
+</div>
+<script src="public/core.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/bootstrap-material-design/dist/js/ripples.min.js"></script>
+<script src="bower_components/bootstrap-material-design/dist/js/material.min.js"></script>
+</body>
+</html>

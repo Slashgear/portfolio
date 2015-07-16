@@ -1,73 +1,73 @@
 {
-  "projet":"Réalisations",
-  "language":"Langue",
-  "cursus":"Cursus",
-  "presentation":"<p>Bourguignon de naissance, Lyonnais d'adoption, mon Bac S en poche je suis allé à <a href='http://polytech.univ-lyon1.fr/' title='Page Polytech'>Polytech Lyon</a> pour commencer mes études afin de devenir ingénieur en sciences informatique.</p><p>Passionné par les nouvelles technologies, j'ai beaucoup appris lors de mes stages ou expériences personnelles.</p><p>Je vous présente ici les<a href='#/projects' title='page des projets'> projets</a> sur lesquels j'ai pu travailler, seul ou en équipe depuis plusieurs années.Ce site répertorie une grande partie des compétences informatiques acquises à Polytech mais certaines n'ont pas été présentées ici.</p><p>Je vous présente ici également mon <a href:'#/cursus' title='Page du cursus'>cursus</a> scolaire depuis le lyçée ainsi que mon activité associative à <a href='//www.junior-polyenco.fr/' title='Polyenco'>Polyenco</a>.</p><p>Si vous souhaitez prendre contact avec moi un formulaire est mis à votre disposition plus bas.</p><p>Je suis actuellement en 5ème et dernière année de mon cursus et à la recherche d'un stage d'une durée minimum de 5 mois à partir de Mars 2016.</p>",
+  "projet":"Project",
+  "language":"Language",
+  "cursus":"Curriculum",
+  "presentation":"<p>Burgundian by birth, adoption Lyonnais, high school diploma in pockets I went to <a href='http://polytech.univ-lyon1.fr/' title='Page Polytech'>Polytech Lyon</a> to start my studies to become a computer science engineer.</p><p>Fascinated by new technologies, I have learned during my internships or personal experiences in many areas.</p>I present here the <a href='#/projects' title='Projects page'>projects</a> I was able to work alone or in teams for several years.This site lists many of the IT skills acquired Polytech but some have not been presented here.</p><p>I present here also my <a href='#/cursus' title='Schooling page'>schooling</a> since high school and my associative activity <a href='http://www.junior-polyenco.fr'>Polyenco</a>.</p><p>If you want to contact me form is at your lowest available.</p><p>I am currently in the fifth and final year of my studies and looking for an internship of a minimum of 5 months beginning March 2016.</p>",
   "name":"Antoine Caron",
-  "age":"22 ans",
-  "status":"Étudiant en ingénierie informatique à Polytech Lyon",
-  "exempletitle":"Exemple de réalisation",
+  "age":"22 years old",
+  "status":"Student in Computer Science in Polytech Lyon - France",
+  "exempletitle":"Example",
   "mail":{
-    "legend":"Contactez-moi",
-    "name":"Nom",
-    "nameph":"Votre nom",
+    "legend":"Contact-me",
+    "name":"Name",
+    "nameph":"Your name",
     "email":"Email",
-    "emailph":"Votre email",
-    "subject":"Objet",
-    "subjectph":"Objet de votre message",
+    "emailph":"Your email",
+    "subject":"Subject",
+    "subjectph":"Subject Message",
     "message":"Message",
-    "Messageph":"Votre message...",
-    "bt":"Envoyer"
+    "Messageph":"Your message...",
+    "bt":"Send"
   },
   "pcursus":{
       "parriat":{
-      "title":"Baccalauréat au Lyçée Henri Parriat",
-      "content":"<p>C'est à Montceau-les-mines (71), que j'ai passé mon Baccalauréat Scientique option Sciences de la Vie et de la Terre spécialité informatique obtenu avec une <strong>mention Bien</strong>. J'y ai également suivi quelques cours d'électronique lors des cours de Mesures Physiques.</p><p class='text-muted'>Juin 2011</p>",
+      "title":"High School Diploma in \"Lyçée Henri Parriat\"",
+      "content":"<p>Grade Good.</p><p>High School located in Montceau-les-mines (France).</p>",
       "image":{
           "alt":"Portail Lyçée Henri Parriat",
           "url":"public/img/lycee_parriat.jpg"
       }
     },
       "polytech":{
-      "title":"Diplome d'ingénieur informatique à Polyetch Lyon (en cours de validation)",
-      "content":"<p>En sortant du lyçée, j'ai pu intégrer le cursus préparatoire intégré de l'école Polytechnique Universitaire de Lyon. J'y ai passé deux ans, durant lesquels j'ai suivi une formation théorique basé sur les mathématiques et l'informatique du cursus de Licence Maths-Info de <a href='http://www.univ-lyon1.fr/' title='Université Claude Bernard'>l'Université Claude Bernard de Lyon</a>.</p><p>En 2013, j'ai pu accèder au cycle ingénieur de mon école, dans la spécialité informatique. L'école <a href='http://polytech.univ-lyon1.fr/' title='Site de l'école'>Polytech Lyon</a> s'inscrit dans le mouvement des écoles du <a href='http://www.polytech-reseau.org/' title='Page du réseau d'écoles'>réseau Polytech</a>, qui compte actuellement 13 écoles sur toute la France. L'école <a href='http://polytech.univ-lyon1.fr/' title='Site de l'école'>Polytech Lyon</a> a rejoint officiellement le réseau en 2013.</p><p>La spécialité informatique de l'école dispense des cours sur les thèmes:<ul><li>Réseaux</li><li>Bases des données, BI, Big Data</li><li>technologies du Web/Mobile</li><li>Informatique embarquée</li><li>Modélisation et résolution de problèmes par l'informatique</li><li>Informatique répartie</li><li>IA</li></ul></p><p>Durant ma formation, j'ai la chance de pouvoir faire trois stages:<ul><li>Un stage de 1 mois entre la prépa et le cycle ingénieur.</li><li>Un stage de 5 mois minimum en quatrième année.</li><li>Un stage terminal de 5 mois minimum durant ma cinquième année.</li></ul></p><p><span class='label label-info'>Réseau Polytech</span>&nbsp;<span class='label label-danger'>Filiaire Infromatique</span>&nbsp;<span class='label label-warning'>Prépa intégrée</span>&nbsp;</p>",
+      "title":"Diploma of computer engineer at Polyetch Lyon (being validated)",
+      "content":"<p>Getting out of high school, I was able to integrate the integrated preparatory program of the University Polytechnic of Lyon. I stayed for two years, during which I followed a theoretical training based on mathematics and computer science curriculum of License Maths-Info from the <a href='http://www.univ-lyon1.fr'>Claude Bernard University</a> in Lyon.</p><p>In 2013, I was able to access the engineering program at my school, in computer science specialty. The school <a href='http://polytech.univ-lyon1.fr/home-755570.kjsp?RH=POLYTECH-FR'>Polytech Lyon</a> is in the movement of the <a href='http://www.polytech-reseau.org/index.php?id=14&L=1'>Polytech network</a> schools, which currently has 13 schools throughout France. The school <a href='http://polytech.univ-lyon1.fr/home-755570.kjsp?RH=POLYTECH-FR'>Polytech Lyon</a> officially joined the network in 2013.</p><p>My shcool offers courses on topics:<ul><li>Networks</li><li>DataBases, BI, Big Data</li><li>Web/Mobile Technologies</li><li>Embebedded sofware</li><li>Modeling and problem solving by computer</li><li>Distributed computing</li><li>AI</li></ul></p><p>At Polytech I have the chance to make 3 internships:<ul><li>An internship of one month between the theoretical training and engineering cycle.</li><li>A minimum of 5 months internship in the fourth year.</li><li>A terminal 5 month minimum internship during my fifth year.</li></ul></p><p><span class='label label-info'>Polytech Network</span>&nbsp;<span class='label label-danger'>Computer science</span></p>",
       "image":{
           "alt":"Bâtiment polytech Lyon",
           "url":"public/img/polytech.jpg"
       }
     },
       "eolane":{
-      "title":"Stage assistant ingénieur à Éolane (Montceau-les-mines)",
-      "content":"<p>J'ai effectué un stage d'une durée de un mois au sein de l'entreprise <a href='http://www.eolane.com/'>Éolane</a> à Montceau-les-mines en 2013 afin de pouvoir accèder au cycle ingénieur de mon école.</p><p>J'y ai réaliser une application en Visual Basic 6.0 pour conduire un banc de test automatisé d'un défibrillateur cardiaque. J'ai également du travailler sur les technologies Bluetooth afin d'encoder le défibrillateur.</p><p class='text-muted'>Juillet 2013</p><p><span class='label label-danger'>Visual Basic 6.0</span>&nbsp;<span class='label label-info'>Durée de 1 mois</span></p>",
+      "title":"Internship at Éolane (Montceau-les-mines)",
+      "content":"<p>I did an internship for a period of one month in the company <a href='http://www.eolane.com/'>éolane</a> in Montceau-les-Mines in 2013 in order to access the engineer of my school cycle.</p><p>I have build an application in Visual Basic 6.0 for driving automated testbench of a cardiac defibrillator. I also work on the Bluetooth technology to encode the defibrillator.</p><p class='text-muted'>July 2013</p><p><span class='label label-danger'>Visual Basic 6.0</span>&nbsp;<span class='label label-info'>1 month</span></p>",
       "image":{
           "alt":"Logo Eolane",
           "url":"public/img/logo_eolane.png"
       }
     },
     "atos":{
-    "title":"Stage assistant ingénieur à Worldline (Lyon)",
-    "content":"<p>Durant ma quatrième année, j'ai pu faire un stage au sein de l'entreprise <a href='http://worldline.com/' title='Worldline international'>Worldline</a> de Lyon. J'y ai intégré une équipe de développeurs web et mobile travaillant pour un grand nom de la restauration rapide mondiale.</p><p>J'ai pu prendre part à un projet d'envergure et novateur sur des technologies que je ne maitrisais pas jusqu'alors.</p><p>J'ai pu travailler sur des sujets:<ul><li>S.E.O</li><li>Génération automatisée de code-barres.</li><li>Ajout de Shorten URL.</li></ul></p><p class='text-muted'>Août 2014-Janvier 2015</p>",
+    "title":"Internship at Worldline (Lyon)",
+    "content":"<p>During my fourth year, I was able to do an internship in the Lyon <a href='http://www.worldline.com'>Worldline</a> company. I've joined a team of web developers and mobile working for a big name in the global fast food.</p><p>I was able to take part in a major project on innovative technologies that I did not previously mastered.</p><p>I worked on:<ul><li>S.E.O</li><li>Barcodes génération</li><li>Shorten Url</li></ul></p><p class='text-muted'>August 2014 - January 2015</p>",
     "image":{
         "alt":"Logo Atos Worldline",
         "url":"public/img/atos-worldline-squarelogo.png"
         }
       },
       "polyenco":{
-      "title":"Activité de responsable chargé d'affaires à Polyenco",
-      "content":"<p>J'ai intégré l'association <a href='//www.junior-polyenco.fr/' title='site web polyenco'>Polyenco</a> en septembre 2013. J'ai intégré le pôle chargé d'affaires où j'ai suivi une formation de chef de projet et une formation commercial/prospection.</p><p>Polyenco est une junior-industrie, c'est à dire, une entreprise qui repose sur une association étudiante à but non lucratif. Les membres de l'association ont pour rôle de rapprocher les étudiant de leur école avec les entreprises. Ce rapprochement se fait par le biais d'études rémunérées et conduites par les membres de l'association. Ainsi, une entreprise peut donc nous déléguer un de ses projets afin que nous le fassions réaliser par l'un de nos étudiants dans la limites des compétences de notre école.</p><p>En tant que chargé d'affaires, je suis à même de: <ul><li>établir un devis/chiffrage d'une étude.</li><li>suivre et conduire l'étude lors de sa réalisation.</li><li>gérer le contact avec la clientèle.</li><li>organiser et participer à la recherche de nouveaux clients.</li></ul></p><p>En septembre 2015, j'ai pu prendre la charge de responsable du pôle chargé d'affaires.</p><p class='text-muted'>2013-2015</p>",
+      "title":"Responsible for commercial business in Polyenco",
+      "content":"<p>I joined the <a href='http://www.junior-polyenco.fr'>Polyenco</a> Association in September 2013. I joined the division in charge of business where I followed a project manager training and sales / prospecting training.</p><p>Polyenco is a junior - industry , ie , a company that relies on a student association nonprofit . The members have the task of bringing students to their schools with businesses. This reconciliation is through paid contracts, conducted by members. Thus, a company can delegate one of its projects to us in order to be realized by one of our students in the limits of knowledges seen in our school.</p><p>As a sales representative I'm able to:<ul><li>make a quote/encryption.</li><li>monitor and conduct projects during its realization.</li><li>manage customer relation.</li><li>organize and participate in the search for new customers.</li></ul></p><p>In September 2015, I was able to be in charge of business division in Polyenco.</p><p class='text-muted'>2013-2015</p>",
       "image":{
           "alt":"Logo Polyenco",
           "url":"public/img/polyenco.svg"
       }
     }
   },
-  "code":"Voir le code sur Github",
-  "seewebsite":"Voir le site en action",
+  "code":"See code on Github",
+  "seewebsite":"See application in action",
   "projets":{
     "portfolio":{
       "name":"Portfolio AngularJS",
       "date":"2015",
-      "description":"<p>Création d'un portfolio avec la technologie AngularJS hébergé sur un server Apache. Il me permet de présenter mes projets de développement que j'ai pu faire depuis plus de 4 ans.<p> Utilisation de ng-i18next pour l'intertionnalisation.</p></p><p>L'application est entièrement one-page et majoritairement client-side.</p><p>On peut noter l'utilisation de bootstrap material design afin de rendre l'application responsive design.</p>",
+      "description":"<p>Création d'un portfolio avec la technologie AngularJS hébergé sur un server Apache.Il me permet de présenter mes projets de développement que j'ai pu faire depuis plus de 4 ans. Utilisation de ng-i18next pour l'intertionnalisation.</p><p>L'application est entièrement one-page et majoritairement client-side.</p><p>On peut noter l'utilisation de bootstrap material design afin de rendre l'application responsive design et ainsi la rendre lisible et utilisable sur mobile.</p>",
       "sources":"https://github.com/Slashgear/portfolio",
       "logo":
         {
@@ -79,7 +79,7 @@
     "tron":{
       "name":"Tron The Grid : Action Game in C",
       "date":"2013",
-      "description":"<p>Réalisation d'un jeu multi-joueurs en 2 dimensions sur le thème de Tron le film en s'inspirant du jeu <a href='https://fr.wikipedia.org/wiki/Tron_(jeu_vid%C3%A9o)' title='Page wiki du jeu Tron'>Lien de la page wikipedia</a>. L'application est entièrement développée en C et fonctionne uniquement sous Linux.</p><p>On note l'utilisation des librairies suivantes:<ul><li>SDL</li><li>FMOD</li></ul></p><p>L'application a été développée dans le cadre scolaire pour <a href='http://liris.cnrs.fr/~ameyer/public_html/www/doku.php?id=lif7' title='Page de présentation du LIF7'>l'unité d'enseignement LIF7</a></p><p>Le jeu développé est multijoueur, compatible manette Xbox360, et il permet de jouer face à des IA.</p><p>Le code est entièrement documenté avec Doxygen.",
+      "description":"<p>Réalisation d'un jeu muti-joueurs en 2 dimensions sur le thème de Tron le film en s'inspirant du jeu <a href='https://fr.wikipedia.org/wiki/Tron_(jeu_vid%C3%A9o)' title='Page wiki du jeu Tron'>Lien de la page wikipedia</a>. L'application est entièrement développée en C et fonctionne uniquement sous Linux.</p><p><ul><li>SDL</li><li>FMOD</li></ul></p><p>L'application a été développée dans le cadre scholaire pour <a href='http://liris.cnrs.fr/~ameyer/public_html/www/doku.php?id=lif7' title='Page de présentation du LIF7'>l'unité d'enseignement LIF7</a></p><p>Le jeu développé est multijoueur, compatible manette Xbox360, et il permet de jouer face à des IA.</p><p>Le code est entièrement documenté avec Doxygen.",
       "sources":"https://github.com/Slashgear/projet-tron",
       "logo":
         {
@@ -91,14 +91,14 @@
     "permispiste":{
       "name":"J2EE WebApplication: Permis Piste",
       "date":"2015",
-      "description":"<p>Développement d'une application web nommé \"permispiste\" pour l'utilisation des technologies vues pour l'unité d'enseignement \"Informatique Répartie\".</p><p>L'application vise à utiliser les technologies suivantes : <ul><li>J2EE</li><li>Spring MVC</li><li>Spring JPA</li><li>Hibernate</li><li>Maven</li><li>MySQL</li><li>Bootstrap Material Design</li><li>JQuery</li></ul></p><p>Le but de l'application vise à enregistrer des apprenants qui s'inscrivent à des jeux afin de passer leur diplôme pour accéder aux pistes d'un aéroport.Il fallait égalment s'intéresser à l'interface graphique afin de la rendre ergonomique et responsive (exemple: les blocks sont draggable). Les statistiques des jeux, objectifs, missions et actions sont visibles sur leurs pages spécifiques. On peut également suivre l'état du jeu pour un apprenant donné sur sa page.</p>",
+      "description":"<p>Developpement of a web application  \"permispiste\" for using technologies seen in \"Informatique Répartie\".</p><p>Application uses : <ul><li>J2EE</li><li>Spring MVC</li><li>Spring JPA</li><li>Hibernate</li><li>Maven</li><li>MySQL</li><li>Bootstrap Material Design</li><li>JQuery</li></ul></p>",
       "sources":"https://github.com/Slashgear/tp-progrepar-piste",
       "logo":
         {
           "title":"PermisPiste homepage",
           "url":"public/img/permispiste.jpg"
         },
-      "labels":"<span class='label label-danger'>Java</span>&nbsp;<span class='label label-danger'>Spring JPA</span>&nbsp;<span class='label label-danger'>Hibernate</span>&nbsp;<span class='label label-info'>En équipe</span>"
+      "labels":"<span class='label label-danger'>Java</span>&nbsp;<span class='label label-danger'>Spring JPA</span>&nbsp;<span class='label label-danger'>Hibernate</span>&nbsp;<span class='label label-info'>Team work</span>"
     },
     "cuttingstock":{
       "name":"2 Dimensions cutting stock problem : Optimisation d'impression",

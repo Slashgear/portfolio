@@ -1,0 +1,83 @@
+<section class="col-md-3">
+  <div class="well">
+      <img src="public/img/profil.jpg" alt="Photo de profil" class="img-circle img-responsive center-block profil-img">
+      <h3 ng-i18next="name"></h3>
+      <h3 class="age" ng-i18next="age"></h3>
+      <p ng-i18next="status"><p>
+      <h4>Lyon, France</h4>
+    <div class="row">
+      <div class="col-xs-6">
+          <a href="https://www.linkedin.com/profile/view?id=318913784" target="_blank"><img class="img-responsive center-block profil-img" src="public/img/256px-Linkedin_icon.svg.png" alt="Linkedin"></a>
+      </div>
+      <div class="col-xs-6">
+          <a href="https://github.com/Slashgear" target="_blank"><img class="img-responsive center-block profil-img" src="public/img/Octicons-mark-github.svg" alt="Github"></a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="col-md-9">
+    <div class="col-md-12">
+      <div class="well" ng-i18next="[html]presentation">
+      </div>
+    </div>
+  <section class="col-md-12">
+    <div class="well">
+      <h3 class="age"ng-i18next="exempletitle"></h3>
+      <div class="row">
+        <div class="col-sm-3">
+            <img class="icon  center-block  img-responsive img-sp-bt" ng-i18next="[src]projets.permispiste.logo.url;[alt]projets.permispiste.logo.title">
+        </div>
+        <div class="col-sm-9">
+            <h4 class="list-group-item-heading" ng-i18next="projets.permispiste.name"></h4>
+            <p class="list-group-item-text" ng-i18next="[html]projets.permispiste.description"></p>
+            <p class="text-muted" ng-i18next="projets.permispiste.date"></p>
+            <p ng-i18next="[html]projets.permispiste.labels"></p>
+            <p class="pull-right"><a class="btn btn-material-blue-grey btn-raised" target="_blank" ng-i18next="[href]//vps178332.ovh.net:8080/;[html]seewebsite"></a>&nbsp;<a class="btn btn-material-blue-grey btn-raised" target="_blank" ng-i18next="[href]projets.permispiste.sources;[html]code"></a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="col-md-12">
+    <div class="well">
+      <div id="Contact" ng-controller="contactController" class="panel-body">
+        <form ng-submit="submit(contactform)" name="contactform" method="post" class="form-horizontal" role="form">
+            <legend ng-i18next="mail.legend"></legend>
+            <div class="form-group" ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
+                <label for="inputName" class="col-lg-2 control-label" ng-i18next="mail.name"></label>
+                <div class="col-lg-10">
+                    <input ng-model="formData.inputName" type="text" class="form-control" id="inputName" name="inputName" ng-i18next="[placeholder]mail.nameph" required>
+                </div>
+            </div>
+            <div class="form-group" ng-class="{ 'has-error': contactform.inputEmail.$invalid && submitted }">
+                <label for="inputEmail" class="col-lg-2 control-label" ng-i18next="mail.email"></label>
+                <div class="col-lg-10">
+                    <input ng-model="formData.inputEmail" type="email" class="form-control" id="inputEmail" name="inputEmail" ng-i18next="[placeholder]mail.emailph"required>
+                </div>
+            </div>
+            <div class="form-group" ng-class="{ 'has-error': contactform.inputSubject.$invalid && submitted }">
+                <label for="inputSubject" class="col-lg-2 control-label" ng-i18next="mail.subject"></label>
+                <div class="col-lg-10">
+                    <input ng-model="formData.inputSubject" type="text" class="form-control" id="inputSubject" name="inputSubject" ng-i18next="[placeholder]mail.subjectph"required>
+                </div>
+            </div>
+            <div class="form-group" ng-class="{ 'has-error': contactform.inputMessage.$invalid && submitted }">
+                <label for="inputMessage" class="col-lg-2 control-label" ng-i18next="mail.message"></label>
+                <div class="col-lg-10">
+                    <textarea ng-model="formData.inputMessage" class="form-control" rows="4" id="inputMessage" name="inputMessage" ng-i18next="[placeholder]mail.Messageph" required></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-offset-2 col-lg-10">
+                    <button type="submit" class="btn btn-material-blue-grey" ng-disabled="submitButtonDisabled" ng-i18next="mail.bt">
+                    </button>
+                </div>
+            </div>
+        </form>
+        <div ng-class="result">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            <p>{{ resultMessage }}</p>
+        </div>
+      </div>
+    <div>
+  <section>
+</section>
