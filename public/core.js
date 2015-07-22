@@ -83,6 +83,7 @@ portfolio.controller('contactController',function ($scope,$http) {
    $scope.submitButtonDisabled = false;
    $scope.submitted = false; //used so that form errors are shown only after the form has been submitted
    $scope.submit = function(contactform, e) {
+       angular.element('#send').button('loading');
        $scope.submitted = true;
        $scope.submitButtonDisabled = true;
        $http({
@@ -91,6 +92,7 @@ portfolio.controller('contactController',function ($scope,$http) {
            data    : param($scope.formData),  //param method from jQuery
            headers : { 'Content-Type': 'application/x-www-form-urlencoded' }  //set the headers so angular passing info as form data (not request payload)
        }).success(function(data){
+          angular.element('#send').button('reset');
            var answer=data.substring(data.lastIndexOf("{"),data.lastIndexOf("}")+1);
            answer=JSON.parse(answer);
            if (answer) { //success comes from the return json object

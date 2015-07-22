@@ -9,6 +9,7 @@
   "exempletitle":"Example",
   "image":"Preview",
   "close":"close",
+  "chargement":"Sending...",
   "mail":{
     "legend":"Contact-me",
     "name":"Name",
