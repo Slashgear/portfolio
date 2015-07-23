@@ -33,11 +33,9 @@ portfolio.config(function ($routeProvider) {
       templateUrl: "public/views/home.html"
     })
     .when('/cursus', {
-      controller: "cursusController",
       templateUrl: "public/views/cursus.html"
     })
     .when('/projects', {
-      controller: "projectsController",
       templateUrl: "public/views/projects.html"
     })
     .otherwise({
@@ -99,14 +97,7 @@ portfolio.controller('contactController',function ($scope,$http) {
                $scope.result='alert alert-dismissable alert-danger';
            }
        });
-      //e.preventDefault();
    }
-});
-
-portfolio.controller('cursusController',function ($scope,$i18next) {
-});
-
-portfolio.controller('projectsController',function ($scope,$i18next) {
 });
 
 portfolio.controller('modalPreviewController',function ($scope, $modal) {
