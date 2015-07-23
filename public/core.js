@@ -13,16 +13,10 @@ angular.module('jm.i18next').config(['$i18nextProvider', function ($i18nextProvi
 
 var portfolio = angular.module('portfolio',['jm.i18next','ngRoute','ngSanitize','angular-google-analytics','ui.bootstrap'])
 .config(function(AnalyticsProvider) {
-        AnalyticsProvider.setAccount('UA-XXXXX-xx');
+        AnalyticsProvider.setAccount('UA-65514134-1');
         AnalyticsProvider.trackPages(true);
         AnalyticsProvider.trackUrlParams(true);
-
-        // Optional set domain (Use 'none' for testing on localhost)
-        AnalyticsProvider.setDomainName('XXX');
         AnalyticsProvider.useDisplayFeatures(true);
-        // url prefix (default is empty)
-        // - for example: when an app doesn't run in the root directory
-        AnalyticsProvider.trackPrefix('my-application');
         AnalyticsProvider.useAnalytics(true);
         AnalyticsProvider.ignoreFirstPageLoad(true);
         AnalyticsProvider.useEnhancedLinkAttribution(true);
