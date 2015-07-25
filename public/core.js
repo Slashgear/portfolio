@@ -38,6 +38,10 @@ portfolio.config(function ($routeProvider) {
     .when('/projects', {
       templateUrl: "public/views/projects.html"
     })
+    .when('/lang/:lg',{
+      controller: "lgController",
+      templateUrl: "public/views/home.html"
+    })
     .otherwise({
       redirectTo: '/'
     });
@@ -122,4 +126,9 @@ portfolio.controller('modalInstanceController',function ($scope, $modalInstance,
   $scope.ok = function () {
    $modalInstance.close();
  };
+});
+
+portfolio.controller('lgController',function ($i18next,$routeParams) {
+  var lg=$routeParams.lg;
+  $i18next.options.lng=lg;
 });
