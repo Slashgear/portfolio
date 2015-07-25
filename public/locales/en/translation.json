@@ -49,7 +49,7 @@
     },
     "atos": {
       "title": "Internship at Worldline (Lyon)",
-      "content": "<p>During my fourth year, I was able to do an internship in the Lyon <a href='http://www.worldline.com'>Worldline</a> company. I've joined a team of web developers and mobile working for a big name in the global fast food.</p><p>I was able to take part in a major project on innovative technologies that I did not previously mastered.</p><p>I worked on:<ul><li>S.E.O</li><li>Barcodes génération</li><li>Shorten Url</li></ul></p><p class='text-muted'>August 2014 - January 2015</p>",
+      "content": "<p>During my fourth year, I was able to do an internship in the Lyon <a href='http://www.worldline.com'>Worldline</a> company. I've joined a team of web developers and mobile working for a big name in the global fast food.</p><p>I was able to take part in a major project on innovative technologies that I did not previously mastered.</p><p>I worked on:<ul><li>S.E.O</li><li>Barcodes generation</li><li>Shorten Url</li></ul></p><p class='text-muted'>August 2014 - January 2015</p>",
       "image": {
         "alt": "Logo Atos Worldline",
         "url": "public/img/atos-worldline-squarelogo.png"
@@ -69,25 +69,25 @@
   "projets": {
     "portfolio": {
       "name": "Portfolio AngularJS",
-      "date": "2015",
-      "description": "<p>Création d'un portfolio avec la technologie AngularJS hébergé sur un server Apache.Il me permet de présenter mes projets de développement que j'ai pu faire depuis plus de 4 ans. Utilisation de ng-i18next pour l'intertionnalisation.</p><p>L'application est entièrement one-page et majoritairement client-side.</p><p>On peut noter l'utilisation de bootstrap material design afin de rendre l'application responsive design et ainsi la rendre lisible et utilisable sur mobile.</p>",
+      "date": "July 2015",
+      "description": "<p>Developpment of a portfolio with AngularJS on an Apache Server</p><p><ul><li>ng-i18next for language.</li><li>Bootstrap Material Design</li></ul></p><p>One-page application and totally client-side.</p>",
       "sources": "https://github.com/Slashgear/portfolio",
       "logo": {
         "title": "Image du portfolio",
         "url": "public/img/portfolio.jpg"
       },
-      "labels": "<span class='label label-danger'>AngularJS</span>&nbsp;<span class='label label-info'>Autonome</span>&nbsp;<span class='label label-success'>Hors école</span>"
+      "labels": "<span class='label label-danger'>AngularJS</span>&nbsp;<span class='label label-info'>Alone</span>"
     },
     "tron": {
       "name": "Tron The Grid : Action Game in C",
       "date": "2013",
-      "description": "<p>Réalisation d'un jeu muti-joueurs en 2 dimensions sur le thème de Tron le film en s'inspirant du jeu <a href='https://fr.wikipedia.org/wiki/Tron_(jeu_vid%C3%A9o)' title='Page wiki du jeu Tron'>Lien de la page wikipedia</a>. L'application est entièrement développée en C et fonctionne uniquement sous Linux.</p><p><ul><li>SDL</li><li>FMOD</li></ul></p><p>L'application a été développée dans le cadre scholaire pour <a href='http://liris.cnrs.fr/~ameyer/public_html/www/doku.php?id=lif7' title='Page de présentation du LIF7'>l'unité d'enseignement LIF7</a></p><p>Le jeu développé est multijoueur, compatible manette Xbox360, et il permet de jouer face à des IA.</p><p>Le code est entièrement documenté avec Doxygen.",
+      "description": "<p>Multi-player game about Tron thema. Game is develop in C and is working on linux</p><p><ul><li>SDL</li><li>FMOD</li><li>Xbox360</li><li>AI</li><li>Doxygen</li></ul></p>",
       "sources": "https://github.com/Slashgear/projet-tron",
       "logo": {
         "title": "Jeu Tron The Grid",
         "url": "public/img/Tron.jpg"
       },
-      "labels": "<span class='label label-danger'>ISO C90</span>&nbsp;<span class='label label-info'>En binôme</span>"
+      "labels": "<span class='label label-danger'>ISO C90</span>&nbsp;<span class='label label-info'>In pairs</span>"
     },
     "permispiste": {
       "name": "J2EE WebApplication: Permis Piste",
@@ -102,7 +102,7 @@
     },
     "cuttingstock": {
       "name": "2 Dimensions cutting stock problem : Optimisation d'impression",
-      "date": "Mars 2015-Mai 2015",
+      "date": "March 2015-May 2015",
       "description": "<p>Résolution du <a href='http://stephanebonnevay.kyvos.net/contenu/cuttingstockproblem.html' title='Explication du problème'>2D cuttingstock problem</a> en Java dans le cadre du cours d'Optimisation discrète.</p><p>En binôme, nous avons proposé une résolution de ce problème en applicquant l'algorithme de recuit simulé. Nous avons également utilisé des technologies assez recéntes comme les <i>parralleleStream</i> de Java 8 afin de réduire la complexité en temps de notre programme.</p><p>Pour ce projet nous avons également utilisé l'outils <a href='https://travis-ci.org/'>Travis</a> qui nous a suivi tout au long du projet.</p><p>Le but de ce projet était d'optimiser les coups d'impression d'un commande pour un imprimeur. L'imprimeur devaient définir un ensemble de canevas appelés patterns sur lesquels il disposait ses images. Il doit ensuite définir le nombre d'impression de chacun de ces pattern afin de remplir au minimum la commande pour chacune des images.</p><p>Il y avait donc un travail d'optimisation sur:<ul><li>le placement des images sur le pattern.</li><li>la résolution d'équation par Simplex.</li><li>l'optimisation de la solution par l'utilisation de meta-heuristiques (Recuit-simulé, Algorithme génétique, Méthode Tabou,..).</li></ul></p>",
       "sources": "https://github.com/achaussende/tp-2D-cutting-stock-problem",
       "logo": {
@@ -112,30 +112,30 @@
       "labels": "<span class='label label-danger'>Java 8</span>&nbsp;<span class='label label-danger'>Maven</span>&nbsp;<span class='label label-danger'>Travis-ci</span>&nbsp;<span class='label label-info'>En binôme</span>"
     },
     "mdp": {
-      "name": "Processus de décision Markovien",
-      "date": "Avril 2015",
-      "description": "<p>Travail en binôme sur les <a href='https://fr.wikipedia.org/wiki/Processus_de_décision_markovien'>processus de décision Markovien</a> dans le cadre des cours d'intelligence artificielle.</p><p>Le but de ce projet était d'appliquer les algorithmes vus en cours sur TP.</p>",
+      "name": "Markov decision processes (MDPs)",
+      "date": "April 2015",
+      "description": "<p>Work in pairs on <a href='https://en.wikipedia.org/wiki/Markov_decision_process'>Markov decision processes (MDPs)</a> for articial intelligence curses.</p>",
       "sources": "https://github.com/Slashgear/tp1-ia-mdp",
       "logo": {
-        "title": "Politique calculé par MDP",
+        "title": "MDP politics result",
         "url": "public/img/mdp.jpg"
       },
-      "labels": "<span class='label label-danger'>Java 8</span>&nbsp;<span class='label label-danger'>IA</span>&nbsp;<span class='label label-info'>En binôme</span>"
+      "labels": "<span class='label label-danger'>Java 8</span>&nbsp;<span class='label label-danger'>AI</span>&nbsp;<span class='label label-info'>In pairs</span>"
     },
     "qlearning": {
-      "name": "Application du Q-Learning",
-      "date": "Avril 2015",
-      "description": "<p>Travail en binôme sur les algorithmes de <a href='https://en.wikipedia.org/wiki/Q-learning'>Q-Learning</a> pour apprendre à un robot rampant à avancer avec son bras (image ci-contre).</p>",
+      "name": "Q-Learning",
+      "date": "April 2015",
+      "description": "<p>Work in pairs on <a href='https://en.wikipedia.org/wiki/Q-learning'>Q-learning Algorithm</a> for teaching to a robot to move with an arm.</p>",
       "sources": "",
       "logo": {
         "title": "Robot en Q-Learning",
         "url": "public/img/q-learning.jpg"
       },
-      "labels": "<span class='label label-danger'>Java 8</span>&nbsp;<span class='label label-danger'>IA</span>&nbsp;<span class='label label-info'>En binôme</span>"
+      "labels": "<span class='label label-danger'>Java 8</span>&nbsp;<span class='label label-danger'>AI</span>&nbsp;<span class='label label-info'>In pairs</span>"
     },
     "filtration": {
       "name": "Étude pour Polyenco et Filtration SASU",
-      "date": "Juillet 2014",
+      "date": "July 2014",
       "description": "<p>Réalisation d'une application web en PHP pour un client de <a href='http://www.junior-polyenco.fr'>Polyenco</a>.</p><p> Pour ce client j'ai du modéliser la base de donnée des produits et leur inter-compatibilitées. J'ai ensuite pu construire l'application afin que les utilisateurs puissent rechercher un filtre industriel en fonction des contraintes de leur environnement.</p><p>Ce site utilise le <a href='https://github.com/bpesquet/Framework-MVC'>Framework MVC</a> vu en cours de sciences de l'information de <a href='http://www.bpesquet.fr/'>Mr Pesquet</a>.</p>",
       "sources": "",
       "logo": {
@@ -145,8 +145,8 @@
       "labels": "<span class='label label-danger'>PHP</span>&nbsp;<span class='label label-danger'>MySQL</span>&nbsp;<span class='label label-warning'>Polyenco</span>"
     },
     "pop3": {
-      "name": "Réalisation d'un client-server POP3 (Simplifié)",
-      "date": "Mars 2015",
+      "name": "POP3 application (Simple)",
+      "date": "March 2015",
       "description": "<p>Réalisation d'une application web en PHP pour un client de <a href='http://www.junior-polyenco.fr'>Polyenco</a>.</p><p> Pour ce client j'ai du modéliser la base de donnée des produits et leur inter-compatibilitées. J'ai ensuite pu construire l'application afin que les utilisateurs puissent rechercher un filtre industriel en fonction des contraintes de leur environnement.</p><p>Ce site utilise le <a href='https://github.com/bpesquet/Framework-MVC'>Framework MVC</a> vu en cours de sciences de l'information de <a href='http://www.bpesquet.fr/'>Mr Pesquet</a>.</p>",
       "sources": "https://github.com/Slashgear/tp-igp-pop3",
       "logo": {
@@ -156,8 +156,8 @@
       "labels": "<span class='label label-danger'>Java</span>&nbsp;<span class='label label-danger'>SSL Socket</span>&nbsp;<span class='label label-info'>En Equipe</span>"
     },
     "smtp": {
-      "name": "Réalisation d'un client-server SMTP (Simplifié)",
-      "date": "Avril 2015",
+      "name": "SMTP application (Simple)",
+      "date": "April 2015",
       "description": "<p>Réalisation d'une application web en PHP pour un client de <a href='http://www.junior-polyenco.fr'>Polyenco</a>.</p><p> Pour ce client j'ai du modéliser la base de donnée des produits et leur inter-compatibilitées. J'ai ensuite pu construire l'application afin que les utilisateurs puissent rechercher un filtre industriel en fonction des contraintes de leur environnement.</p><p>Ce site utilise le <a href='https://github.com/bpesquet/Framework-MVC'>Framework MVC</a> vu en cours de sciences de l'information de <a href='http://www.bpesquet.fr/'>Mr Pesquet</a>.</p>",
       "sources": "https://github.com/achaussende/tp-igp-smtp",
       "logo": {
@@ -167,26 +167,26 @@
       "labels": "<span class='label label-danger'>Java</span>&nbsp;<span class='label label-danger'>SSL Socket</span>&nbsp;<span class='label label-info'>En Equipe</span>"
     },
     "tftp": {
-      "name": "Réalisation d'une application TFTP (Simplifié)",
-      "date": "Mars 2014",
-      "description": "<p>Application client-server TFTP pour le transfers de fichier grâce au portocole UDP.</p><p>L'application es entièrement compatible avec Pumpkin.</p>",
+      "name": "TFTP application (Simple)",
+      "date": "March 2014",
+      "description": "<p>Client-Server TFTP application for sending and receiving files using TFTP protocol.</p><p>Work with Pumpkin TFTP application.</p>",
       "sources": "https://github.com/Slashgear/tp-tftp-java",
       "logo": {
         "title": "TFTP",
         "url": "public/img/tftp.png"
       },
-      "labels": "<span class='label label-danger'>Java</span>&nbsp;<span class='label label-danger'>SSL Socket</span>&nbsp;<span class='label label-info'>En Equipe</span>"
+      "labels": "<span class='label label-danger'>Java</span>&nbsp;<span class='label label-danger'>SSL Socket</span>&nbsp;<span class='label label-info'>Team</span>"
     },
     "tetris": {
-      "name": "Réalisation d'un jeu Tetris avec JSwing",
-      "date": "Mars 2014",
-      "description": "Réalisation en binôme d'un jeu de Tetris en Java pour le cours d'initiation à la programmation en java avec JSwing.",
+      "name": "Tetris with JSwing",
+      "date": "March 2014",
+      "description": "Work inpairs on a Tetris game in Java using JSWING as first project in JAVA.",
       "sources": "https://github.com/Slashgear/tp-polytech-tetris",
       "logo": {
         "title": "Tetris blocks",
         "url": "public/img/tetris.jpg"
       },
-      "labels": "<span class='label label-danger'>Java</span>&nbsp;<span class='label label-info'>En binôme</span>"
+      "labels": "<span class='label label-danger'>Java</span>&nbsp;<span class='label label-info'>In pairs</span>"
     }
   }
 }

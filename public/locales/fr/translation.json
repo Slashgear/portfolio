@@ -147,7 +147,7 @@
     "pop3": {
       "name": "Réalisation d'un client-server POP3 (Simplifié)",
       "date": "Mars 2015",
-      "description": "<p>Réalisation d'une application web en PHP pour un client de <a href='http://www.junior-polyenco.fr'>Polyenco</a>.</p><p> Pour ce client j'ai du modéliser la base de donnée des produits et leur inter-compatibilitées. J'ai ensuite pu construire l'application afin que les utilisateurs puissent rechercher un filtre industriel en fonction des contraintes de leur environnement.</p><p>Ce site utilise le <a href='https://github.com/bpesquet/Framework-MVC'>Framework MVC</a> vu en cours de sciences de l'information de <a href='http://www.bpesquet.fr/'>Mr Pesquet</a>.</p>",
+      "description": "<p>Application Java pour la lecture de mail grâce au protocole POP3 et l'utilisation des sockets Inet.</p>",
       "sources": "https://github.com/Slashgear/tp-igp-pop3",
       "logo": {
         "title": "POP3",
@@ -158,7 +158,7 @@
     "smtp": {
       "name": "Réalisation d'un client-server SMTP (Simplifié)",
       "date": "Avril 2015",
-      "description": "<p>Réalisation d'une application web en PHP pour un client de <a href='http://www.junior-polyenco.fr'>Polyenco</a>.</p><p> Pour ce client j'ai du modéliser la base de donnée des produits et leur inter-compatibilitées. J'ai ensuite pu construire l'application afin que les utilisateurs puissent rechercher un filtre industriel en fonction des contraintes de leur environnement.</p><p>Ce site utilise le <a href='https://github.com/bpesquet/Framework-MVC'>Framework MVC</a> vu en cours de sciences de l'information de <a href='http://www.bpesquet.fr/'>Mr Pesquet</a>.</p>",
+      "description": "<p>Application Java pour l'envoi de mail grâce au protocole SMTP et l'utilisation des sockets Inet.<p>",
       "sources": "https://github.com/achaussende/tp-igp-smtp",
       "logo": {
         "title": "POP3",
@@ -169,7 +169,7 @@
     "tftp": {
       "name": "Réalisation d'une application TFTP (Simplifié)",
       "date": "Mars 2014",
-      "description": "<p>Application client-server TFTP pour le transfers de fichier grâce au portocole UDP.</p><p>L'application es entièrement compatible avec Pumpkin.</p>",
+      "description": "<p>Application client-server TFTP pour le transfers de fichier grâce au portocole UDP.</p><p>L'application est entièrement compatible avec Pumpkin.</p>",
       "sources": "https://github.com/Slashgear/tp-tftp-java",
       "logo": {
         "title": "TFTP",
