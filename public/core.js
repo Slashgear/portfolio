@@ -26,7 +26,7 @@ var portfolio = angular.module('portfolio',['jm.i18next','ngRoute','ngSanitize',
       // For automatic page tracking
 });
 
-portfolio.config(function ($routeProvider) {
+portfolio.config(function ($routeProvider, $locationProvider) {
   $routeProvider
     .when('/', {
       controller: "mainController",
@@ -45,6 +45,8 @@ portfolio.config(function ($routeProvider) {
     .otherwise({
       redirectTo: '/'
     });
+    $locationProvider.html5Mode(true);
+  $locationProvider.hashPrefix('!');
 });
 
 portfolio.controller('mainController', function($scope,$i18next,$location,$anchorScroll) {
