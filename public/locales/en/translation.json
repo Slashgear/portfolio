@@ -2,6 +2,7 @@
   "projet": "Project",
   "language": "Language",
   "cursus": "Curriculum",
+  "description":"Portfolio of different projects realised by Antoine CARON at Polytech Lyon.",
   "presentation": "<p>Burgundian by birth, adoption Lyonnais, high school diploma in pockets I went to <a href='http://polytech.univ-lyon1.fr/' title='Page Polytech'>Polytech Lyon</a> to start my studies to become a computer science engineer.</p><p>Fascinated by new technologies, I have learned during my internships or personal experiences in many areas.</p>I present here the <a href='projects' title='Projects page'>projects</a> I was able to work alone or in teams for several years.This site lists many of the IT skills acquired Polytech but some have not been presented here.</p><p>I present here also my <a href='cursus' title='Schooling page'>schooling</a> since high school and my associative activity <a href='http://www.junior-polyenco.fr'>Polyenco</a>.</p><p>If you want to contact me <a ng-click='goForm()'>form</a> is at your lowest available.</p><p>I am currently in the fifth and final year of my studies and looking for an internship of a minimum of 5 months beginning March 2016.</p>",
   "name": "Antoine Caron",
   "age": "22 years old",

@@ -26,6 +26,14 @@ var portfolio = angular.module('portfolio',['jm.i18next','ngRoute','ngSanitize',
       // For automatic page tracking
 });
 
+portfolio.factory('Page', function(){
+  var title = 'default';
+  return {
+    title: function() { return title; },
+    setTitle: function(newTitle) { title = newTitle; }
+  };
+});
+
 portfolio.config(function ($routeProvider, $locationProvider) {
   $routeProvider
     .when('/', {
@@ -33,9 +41,11 @@ portfolio.config(function ($routeProvider, $locationProvider) {
       templateUrl: "public/views/home.html"
     })
     .when('/cursus', {
+      controller: "cursusController",
       templateUrl: "public/views/cursus.html"
     })
     .when('/projects', {
+      controller: "projectsController",
       templateUrl: "public/views/projects.html"
     })
     .when('/lang/:lg',{
@@ -49,10 +59,11 @@ portfolio.config(function ($routeProvider, $locationProvider) {
   $locationProvider.hashPrefix('!');
 });
 
-portfolio.controller('mainController', function($scope,$i18next,$location,$anchorScroll) {
+portfolio.controller('mainController', function($scope,$i18next,$location,$anchorScroll,Page) {
   angular.element(document).ready(function () {
       $.material.init();
   });
+  Page.setTitle("Antoine Caron | Portfolio");
   $scope.setEn = function() {
     $i18next.options.lng = 'en';
   };
@@ -133,4 +144,15 @@ portfolio.controller('modalInstanceController',function ($scope, $modalInstance,
 portfolio.controller('lgController',function ($i18next,$routeParams) {
   var lg=$routeParams.lg;
   $i18next.options.lng=lg;
+});
+
+portfolio.controller('headController',function ($scope, Page) {
+  $scope.Page = Page;
+});
+
+portfolio.controller('cursusController',function ($scope, Page) {
+  Page.setTitle("Portfolio | Cursus");
+});
+portfolio.controller('projectsController',function ($scope, Page) {
+  Page.setTitle("Portfolio | Projects");
 });

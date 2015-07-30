@@ -1,9 +1,9 @@
 <!doctype html>
-<html ng-app="portfolio">
+<html ng-app="portfolio" ng-controller="headController">
 <head>
   <base href="/">
   <meta charset="UTF-8">
-  <meta name="description" content="Portfolio de présentation des création d'Antoine Caron.">
+  <meta name="description" ng-i18next="[content]description">
   <meta name="keywords" content="HTML,CSS,JSON,JavaScript,Angular,PHP,Contact">
   <meta name="author" content="Antoine Caron">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,7 +28,7 @@
   <link href="bower_components/bootstrap-material-design/dist/css/ripples.css" rel="stylesheet">
   <link href="public/css/main.css" rel="stylesheet">
 
-  <title>Antoine Caron - Portfolio</title>
+  <title>{{ Page.title() }}</title>
 </head>
 <body ng-controller="mainController">
 <header>
