@@ -11,7 +11,7 @@ angular.module('jm.i18next').config(['$i18nextProvider', function ($i18nextProvi
     };
 }]);
 
-var portfolio = angular.module('portfolio',['jm.i18next','ngRoute','ngSanitize','ui.bootstrap'])
+var portfolio = angular.module('portfolio',['jm.i18next','ngRoute','ngSanitize','ui.bootstrap','angulartics','angulartics.google.analytics']);
 
 portfolio.factory('Page', function(){
   var title = 'default';
