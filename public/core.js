@@ -11,20 +11,7 @@ angular.module('jm.i18next').config(['$i18nextProvider', function ($i18nextProvi
     };
 }]);
 
-var portfolio = angular.module('portfolio',['jm.i18next','ngRoute','ngSanitize','angular-google-analytics','ui.bootstrap'])
-.config(function(AnalyticsProvider) {
-        AnalyticsProvider.setAccount('UA-65514134-1');
-        AnalyticsProvider.trackPages(true);
-        AnalyticsProvider.trackUrlParams(true);
-        AnalyticsProvider.useDisplayFeatures(true);
-        AnalyticsProvider.useAnalytics(true);
-        AnalyticsProvider.ignoreFirstPageLoad(true);
-        AnalyticsProvider.useEnhancedLinkAttribution(true);
-        AnalyticsProvider.setPageEvent('$stateChangeSuccess');
-        AnalyticsProvider.delayScriptTag(true);
-}).run(function(Analytics) {
-      // For automatic page tracking
-});
+var portfolio = angular.module('portfolio',['jm.i18next','ngRoute','ngSanitize','ui.bootstrap'])
 
 portfolio.factory('Page', function(){
   var title = 'default';
@@ -50,7 +37,8 @@ portfolio.config(function ($routeProvider, $locationProvider) {
     })
     .when('/lang/:lg',{
       controller: "lgController",
-      templateUrl: "public/views/home.html"
+      templateUrl: "public/views/home.html",
+      redirectTo:"/"
     })
     .otherwise({
       redirectTo: '/'
@@ -63,6 +51,8 @@ portfolio.controller('mainController', function($scope,$i18next,$location,$ancho
   angular.element(document).ready(function () {
       $.material.init();
   });
+  $scope.language=$location.search().lg;
+  $i18next.options.lng = $scope.language;
   Page.setTitle("Antoine Caron | Portfolio");
   $scope.setEn = function() {
     $i18next.options.lng = 'en';
