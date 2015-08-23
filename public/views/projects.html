@@ -2,7 +2,7 @@
 <div ng-controller="modalPreviewController">
   <section class="col-xs-12">
       <div class="well">
-        <div class="row">
+        <div class="row" itemscope itemtype="http://schema.org/SoftwareApplication">
           <div class="col-sm-3">
               <img class="icon  center-block  img-responsive img-sp-bt img-raised" ng-i18next="[src]projets.portfolio.logo.url;[alt]projets.portfolio.logo.title;[data-url]projets.portfolio.logo.url" ng-click="open($event,'lg')">
           </div>
@@ -12,6 +12,27 @@
               <p class="text-muted" ng-i18next="projets.portfolio.date"></p>
               <p ng-i18next="[html]projets.portfolio.labels"></p>
               <p class="pull-right"><a class="btn btn-material-blue-grey btn-raised" target="_blank" ng-i18next="[href]projets.portfolio.sources;[html]code"></a></p>
+              <script type="application/ld+json">
+              {
+                "@context": "http://schema.org/",
+                "@type": "WebApplication",
+                "name": "Portfolio AngularJS",
+                "screenshot":"http://www.antoinecaron.ovh/public/img/portfolio.jpg",
+                "downloadUrl":"https://github.com/Slashgear/portfolio",
+                "installUrl":"http://www.antoinecaron.ovh/",
+                "author":[
+                  {"@type":"Person",
+                   "name":"Antoine CARON"}
+                ],
+                "image":"http://www.antoinecaron.ovh/public/img/portfolio.jpg",
+                "dateCreated":"2015-07-01",
+                "applicationCategory":"Web, Angular",
+                "operatingSystem":"Windows 10",
+                "offers":{
+                  "price":"0"
+                }
+              }
+              </script>
           </div>
         </div>
       </div>
@@ -26,6 +47,30 @@
               <p class="text-muted" ng-i18next="projets.permispiste.date"></p>
               <p ng-i18next="[html]projets.permispiste.labels"></p>
               <p class="pull-right"><a class="btn btn-material-blue-grey btn-raised" target="_blank" ng-i18next="[href]projets.permispiste.sources;[html]code"></a></p>
+              <script type="application/ld+json">
+              {
+                "@context": "http://schema.org/",
+                "@type": "WebApplication",
+                "name": "Permis Piste J2EE WebApplication",
+                "screenshot":"http://www.antoinecaron.ovh/public/img/permispiste.jpg",
+                "downloadUrl":"https://github.com/Slashgear/tp-progrepar-piste",
+                "author":[
+                  {"@type":"Person",
+                   "name":"Antoine CARON"},
+                  {"@type":"Person",
+                    "name":"Adrien Chaussende"},
+                  {"@type":"Person",
+                     "name":"Alexandre Galdéano"}
+                ],
+                "image":"http://www.antoinecaron.ovh/public/img/permispiste.jpg",
+                "dateCreated":"2015-05-01",
+                "applicationCategory":"Web, J2EE, Hibernate",
+                "operatingSystem":"Windows 10",
+                "offers":{
+                  "price":"0"
+                }
+              }
+              </script>
           </div>
         </div>
       </div>
@@ -40,6 +85,27 @@
               <p class="text-muted" ng-i18next="projets.cuttingstock.date"></p>
               <p ng-i18next="[html]projets.cuttingstock.labels"></p>
               <p class="pull-right"><a class="btn btn-material-blue-grey btn-raised" target="_blank" ng-i18next="[href]projets.cuttingstock.sources;[html]code"></a></p>
+              <script type="application/ld+json">
+              {
+                "@context": "http://schema.org/",
+                "@type": "SoftWareApplication",
+                "name": "2 Dimensions cutting stock problem : Optimisation d'impression",
+                "downloadUrl":"https://github.com/Slashgear/tp-progrepar-piste",
+                "author":[
+                  {"@type":"Person",
+                   "name":"Antoine CARON"},
+                  {"@type":"Person",
+                    "name":"Adrien Chaussende"}
+                ],
+                "image":"http://localhost/portfolio/public/img/cuttingstock.jpg",
+                "dateCreated":"2015-04-01",
+                "applicationCategory":"Java 8",
+                "operatingSystem":"Windows 10",
+                "offers":{
+                  "price":"0"
+                }
+              }
+              </script>
           </div>
         </div>
       </div>
@@ -150,6 +216,27 @@
               <p class="text-muted" ng-i18next="projets.tron.date"></p>
               <p ng-i18next="[html]projets.tron.labels"></p>
               <p class="pull-right"><a class="btn btn-material-blue-grey btn-raised" target="_blank" ng-i18next="[href]projets.tron.sources;[html]code"></a></p>
+              <script type="application/ld+json">
+              {
+                "@context": "http://schema.org/",
+                "@type": "SoftWareApplication",
+                "name": "Tron The Grid : Action Game in C",
+                "downloadUrl":"https://github.com/Slashgear/projet-tron",
+                "author":[
+                  {"@type":"Person",
+                   "name":"Antoine CARON"},
+                  {"@type":"Person",
+                    "name":"Matthieu Billet"}
+                ],
+                "image":"http://localhost/portfolio/public/img/Tron.jpg",
+                "dateCreated":"2013-04-01",
+                "applicationCategory":"C",
+                "operatingSystem":"Ubuntu",
+                "offers":{
+                  "price":"0"
+                }
+              }
+              </script>
           </div>
         </div>
       </div>
