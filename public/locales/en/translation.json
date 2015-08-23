@@ -1,4 +1,9 @@
 {
+  "h1":{
+    "home":"Antoine Caron portfolio's home",
+    "cursus":"Academic experiences",
+    "projects":"Projects done by Antoine Caron"
+  },
   "projet": "Project",
   "language": "Language",
   "cursus": "Curriculum",
