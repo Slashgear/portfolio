@@ -1,9 +1,4 @@
 {
-  "h1":{
-    "home":"Accueil du Portfolio d'Antoine Caron",
-    "cursus":"Cursus scolaire et expériences pédagogiques",
-    "projects":"Applications et réalisations faites par Antoine Caron"
-  },
   "projet": "Réalisations",
   "language": "Langue",
   "cursus": "Cursus",
@@ -12,6 +7,8 @@
   "name": "Antoine Caron",
   "age": "22 ans",
   "status": "Étudiant en ingénierie informatique à Polytech Lyon",
+  "mycursus":"Mon cursus scolaire",
+  "myprojects":"Mes projets",
   "exempletitle": "Exemple de réalisation",
   "image": "Prévisualisation",
   "close": "fermer",

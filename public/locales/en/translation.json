@@ -1,9 +1,4 @@
 {
-  "h1":{
-    "home":"Antoine Caron portfolio's home",
-    "cursus":"Academic experiences",
-    "projects":"Projects done by Antoine Caron"
-  },
   "projet": "Project",
   "language": "Language",
   "cursus": "Curriculum",
@@ -14,6 +9,8 @@
   "exempletitle": "Example",
   "image": "Preview",
   "close": "close",
+  "mycursus":"my academic experiences",
+  "myprojects":"my projects",
   "chargement": "Sending...",
   "mail": {
     "legend": "Contact-me",
