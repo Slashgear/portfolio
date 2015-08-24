@@ -23,6 +23,7 @@
   <script src="bower_components/angulartics/dist/angulartics.min.js"></script>
   <script src="bower_components/angulartics-google-analytics/dist/angulartics-google-analytics.min.js"></script>
   <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.js"></script>
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
   <link href="bower_components/bootstrap-material-design/dist/css/roboto.css" rel="stylesheet">
   <link href="bower_components/bootstrap-material-design/dist/css/material.min.css" rel="stylesheet">
@@ -57,7 +58,7 @@
     </ul>
     <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
-                <a href="bootstrap-elements.html" data-target="#" class="dropdown-toggle" data-toggle="dropdown">
+                <a href="#" data-target="#" class="dropdown-toggle" data-toggle="dropdown">
                   {{'language'| i18next}}
                   <b class="caret"></b>
                 </a>
@@ -71,8 +72,8 @@
   </div>
 </header>
 <div class="container">
-    <div class="row">
-        <div ng-view></div>
+    <div class="row view-animate-container">
+        <div ng-view class="view-animate"></div>
     </div>
 </div>
 <div class="hidden" itemscope itemtype="http://schema.org/Person">
