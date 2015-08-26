@@ -6,7 +6,7 @@ angular.module('jm.i18next').config(['$i18nextProvider', function ($i18nextProvi
         useCookie: true,
         useLocalStorage: false,
         fallbackLng: 'fr',
-        resGetPath: 'public/locales/__lng__/__ns__.json',
+        resGetPath: 'public/locales/__lng__/__ns__.min.json',
         defaultLoadingValue: '' // ng-i18next option, *NOT* directly supported by i18next
     };
 }]);

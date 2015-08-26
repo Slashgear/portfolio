@@ -16,3 +16,5 @@ log/
 target/
 
 *.ini
+
+node_modules/
