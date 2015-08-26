@@ -1,0 +1,158 @@
+<!doctype html>
+<html ng-app="portfolio" ng-controller="headController">
+  <head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio d'Antoine Caron, développeur informatique, retrouvez ici les informations liées à son cursus scolaire ainsi que la majorité de ses projets.">
+    <meta name="keywords" content="HTML,CSS,JSON,JavaScript,Angular,PHP,Contact">
+    <meta name="author" content="Antoine Caron">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="mIRa6UaGKCbkiXDEtjwwqZ80FFzQUasQ5gQu5m9zy-E" />
+    <meta name="fragment" content="!">
+    <link rel="alternate" href="lang/fr" hreflang="fr" />
+    <link rel="alternate" href="lang/en" hreflang="en" />
+    <link rel="alternate" href="/" hreflang="x-default"/>
+    <link href='favicon.ico' rel='icon'/>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-material-design/dist/css/material.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-material-design/dist/css/ripples.css" />
+    <link rel="stylesheet" href="bower_components/mdi/css/materialdesignicons.css" />
+    <link rel="stylesheet" href="bower_components/mdi/css/materialdesignicons.min.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <title ng-bind="Page.title()"></title>
+  </head>
+  <body ng-controller="mainController">
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <header>
+        <div class="navbar navbar-material-blue-grey">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Antoine Caron</a>
+          </div>
+          <div class="navbar-collapse collapse navbar-inverse-collapse">
+            <ul class="nav navbar-nav">
+          <li><a href="cursus" ng-i18next>cursus</a></li>
+          <li><a href="projects" ng-i18next>projet</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown">
+                      <a href="#" data-target="#" class="dropdown-toggle" data-toggle="dropdown">
+                        {{'language'| i18next}}
+                        <b class="caret"></b>
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a ng-click="setFr()"><img src="images/Flag_of_France.svg.png" class="img-responsive flags center-block" alt="French Flag"/></a></li>
+                          <li><a ng-click="setEn()"><img src="images/langage-anglais-drapeau.jpg" class="img-responsive flags center-block" alt="US/GB Flag"/></a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row view-animate-container">
+            <div ng-view class="view-animate"></div>
+        </div>
+    </div>
+
+    <div class="hidden" itemscope itemtype="http://schema.org/Person">
+      <img itemprop="image" src="images/profil.jpg" alt="Photo de profil" class="img-circle img-responsive center-block profil-img">
+      <h3 itemprop="givenName">Antoine</h3>
+      <h3 itemprop="familyName">CARON</h3>
+      <h3 itemprop="name">Antoine CARON</h3>
+      <p itemprop="jobTitle">Student in Computer Science</p>
+      <span itemprop="birthDate">1993-01-15</span>
+      <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <h4 itemprop="addressLocality">Lyon, France</h4>
+      </div>
+    </div>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-65514134-1');
+       ga('send', 'pageview');
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context" : "http://schema.org",
+        "@type" : "Organization",
+        "name" : "Antoine CARON",
+        "url" : "http://www.antoinecaron.ovh",
+        "logo": "http://www.antoinecaron.ovh/images//profil.jpg",
+        "sameAs" : [
+          "https://www.facebook.com/antoine395.caron",
+          "https://plus.google.com/u/0/+AntoineCaronAC",
+          "https://fr.linkedin.com/pub/antoine-caron/8a/978/708"
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "WebSite",
+      "name" : "Portfolio | Antoine Caron",
+      "url" : "http://www.antoinecaron.ovh"
+    }
+    </script>
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/waypoints/lib/noframework.waypoints.min.js"></script>
+    <script src="bower_components/SHA-1/sha1.js"></script>
+    <script src="bower_components/angulartics/src/angulartics.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-clicky.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-cnzz.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-ga-cordova.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-gtm.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-piwik.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-scroll.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-splunk.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-woopra.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-marketo.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-intercom.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-inspectlet.js"></script>
+    <script src="bower_components/angulartics/src/angulartics-newrelic-insights.js"></script>
+    <script src="bower_components/angulartics-google-analytics/dist/angulartics-google-analytics.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/bootstrap-material-design/dist/js/material.js"></script>
+    <script src="bower_components/bootstrap-material-design/dist/js/ripples.js"></script>
+    <script src="bower_components/i18next/i18next.js"></script>
+    <script src="bower_components/ng-i18next/dist/ng-i18next.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

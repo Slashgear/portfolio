@@ -1,0 +1,75 @@
+.profil-img{
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+div.justify p{
+  text-align: justify;
+}
+
+.icon{
+  line-height: inherit;
+  vertical-align: bottom;
+}
+
+.flags{
+  max-height: 30px;
+}
+.img-item{
+  min-width: 100px;
+}
+.icon-sm{
+  width: 50%;
+}
+.age{
+  margin-top: 0px;
+}
+
+.md-img{
+  width: 75%;
+  margin-bottom: 5%;
+}
+
+.img-raised:hover{
+  box-shadow: 0 16px 28px 0 rgba(0,0,0,.22),0 25px 55px 0 rgba(0,0,0,.21);
+}
+.img-sp-bt{
+  margin-bottom: 15px;
+}
+
+.floating{
+  position: fixed;
+  right: 23px;
+  bottom: 23px;
+  padding-top: 15px;
+  margin-bottom: 0;
+  z-index: 998;
+}
+
+.view-animate {
+  padding:10px;
+}
+.view-animate-container {
+  position:relative;
+}
+.view-animate.ng-enter, .view-animate.ng-leave {
+  transition:all cubic-bezier(0,0,1,1) 0.5s;
+  display:block;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  padding:10px;
+}
+
+.view-animate.ng-enter {
+  left:100%;
+}
+.view-animate.ng-enter.ng-enter-active {
+  left:0;
+}
+.view-animate.ng-leave.ng-leave-active {
+  left:-100%;
+}
