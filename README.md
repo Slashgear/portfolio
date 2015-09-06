@@ -13,8 +13,8 @@ Technologies :
 
 Pages :
 -------------------- 
-* [Homepage](www.antoinecaron.ovh "Home")
-* [Curriculum](www.antoinecaron.ovh "Cursus")
-* [Projects](www.antoinecaron.ovh "Cursus")
+* [Homepage](http://www.antoinecaron.ovh "Home")
+* [Curriculum](http://www.antoinecaron.ovh/cursus "Cursus")
+* [Projects](http://www.antoinecaron.ovh/projects "Cursus")
 
 
