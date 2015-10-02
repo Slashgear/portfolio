@@ -74,6 +74,17 @@
   "code": "See code on Github",
   "seewebsite": "See application in action",
   "projets": {
+    "lyonvelov": {
+      "name": "Lyon Vélo'v: AngularJS website",
+      "date": "2015",
+      "description": "<p>Site web for users of self-services bikes Vélo'v from Lyon City.</p><p>This site use AngularJS and RestFull webservices.</p><p>Design is responsive an based on Google Material design guidelines.</p><p>Website here: <a href='http://www.lyonvelov.info'>www.lyonvelov.info</a></p>",
+      "sources": "http://www.lyonvelov.info/",
+      "logo": {
+        "title": "Lyon Vélo'V",
+        "url": "public/img/lyonvelov.jpg"
+      },
+      "labels": "<span class='label label-danger'>AngularJS</span>&nbsp;<span class='label label-info'>TeamWork</span>"
+    },
     "portfolio": {
       "name": "Portfolio AngularJS",
       "date": "July 2015",
