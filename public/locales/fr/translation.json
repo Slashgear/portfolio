@@ -206,6 +206,17 @@
         "url": "public/img/tetris.jpg"
       },
       "labels": "<span class='label label-danger'>Java</span>&nbsp;<span class='label label-info'>En binôme</span>"
+    },
+    "velovBI": {
+      "name": "Business intelligence : Vélo'v",
+      "date": "Octobre 2015",
+      "description": "<p>Travail en équipe sur les données de JCDECAUX afin d'extraire de la connaissance et de l'information.</p><p><ul><li>Création d'un entrepôt de données.</li><li>Data mining avec QlikSense et R.</li></ul></p>",
+      "sources": "public/views/Presentation.html",
+      "logo": {
+        "title": "Bi",
+        "url": "public/img/schema_etapes.png"
+      },
+      "labels": "<span class='label label-info'>R</span>&nbsp;<span class='label label-success'>Group</span>&nbsp;<span class='label label-info'>Polytech</span>"
     }
   }
 }

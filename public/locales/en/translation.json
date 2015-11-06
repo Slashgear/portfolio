@@ -121,7 +121,7 @@
     "cuttingstock": {
       "name": "2 Dimensions cutting stock problem : Optimisation d'impression",
       "date": "March 2015-May 2015",
-      "description": "<p>Résolution du <a href='http://stephanebonnevay.kyvos.net/contenu/cuttingstockproblem.html' title='Explication du problème'>2D cuttingstock problem</a> en Java dans le cadre du cours d'Optimisation discrète.</p><p>En binôme, nous avons proposé une résolution de ce problème en applicquant l'algorithme de recuit simulé. Nous avons également utilisé des technologies assez recéntes comme les <i>parralleleStream</i> de Java 8 afin de réduire la complexité en temps de notre programme.</p><p>Pour ce projet nous avons également utilisé l'outils <a href='https://travis-ci.org/'>Travis</a> qui nous a suivi tout au long du projet.</p><p>Le but de ce projet était d'optimiser les coups d'impression d'un commande pour un imprimeur. L'imprimeur devaient définir un ensemble de canevas appelés patterns sur lesquels il disposait ses images. Il doit ensuite définir le nombre d'impression de chacun de ces pattern afin de remplir au minimum la commande pour chacune des images.</p><p>Il y avait donc un travail d'optimisation sur:<ul><li>le placement des images sur le pattern.</li><li>la résolution d'équation par Simplex.</li><li>l'optimisation de la solution par l'utilisation de meta-heuristiques (Recuit-simulé, Algorithme génétique, Méthode Tabou,..).</li></ul></p>",
+      "description": "Resolution of an optimisation problem with simulate annealing",
       "sources": "https://github.com/achaussende/tp-2D-cutting-stock-problem",
       "logo": {
         "title": "Positionnnement d'images sur un pattern",
@@ -152,9 +152,9 @@
       "labels": "<span class='label label-danger'>Java 8</span>&nbsp;<span class='label label-danger'>AI</span>&nbsp;<span class='label label-info'>In pairs</span>"
     },
     "filtration": {
-      "name": "Étude pour Polyenco et Filtration SASU",
+      "name": "Website : Filtration SASU",
       "date": "July 2014",
-      "description": "<p>Réalisation d'une application web en PHP pour un client de <a href='http://www.junior-polyenco.fr'>Polyenco</a>.</p><p> Pour ce client j'ai du modéliser la base de donnée des produits et leur inter-compatibilitées. J'ai ensuite pu construire l'application afin que les utilisateurs puissent rechercher un filtre industriel en fonction des contraintes de leur environnement.</p><p>Ce site utilise le <a href='https://github.com/bpesquet/Framework-MVC'>Framework MVC</a> vu en cours de sciences de l'information de <a href='http://www.bpesquet.fr/'>Mr Pesquet</a>.</p>",
+      "description": "PHP website with MVC pattern for Filtration SASU.",
       "sources": "",
       "logo": {
         "title": "Page de recherche de produit",
@@ -165,7 +165,7 @@
     "pop3": {
       "name": "POP3 application (Simple)",
       "date": "March 2015",
-      "description": "<p>Réalisation d'une application web en PHP pour un client de <a href='http://www.junior-polyenco.fr'>Polyenco</a>.</p><p> Pour ce client j'ai du modéliser la base de donnée des produits et leur inter-compatibilitées. J'ai ensuite pu construire l'application afin que les utilisateurs puissent rechercher un filtre industriel en fonction des contraintes de leur environnement.</p><p>Ce site utilise le <a href='https://github.com/bpesquet/Framework-MVC'>Framework MVC</a> vu en cours de sciences de l'information de <a href='http://www.bpesquet.fr/'>Mr Pesquet</a>.</p>",
+      "description": "<p>POP3 soft in Java. Read in a mail box with Java sockets.</p>",
       "sources": "https://github.com/Slashgear/tp-igp-pop3",
       "logo": {
         "title": "POP3",
@@ -176,10 +176,10 @@
     "smtp": {
       "name": "SMTP application (Simple)",
       "date": "April 2015",
-      "description": "<p>Réalisation d'une application web en PHP pour un client de <a href='http://www.junior-polyenco.fr'>Polyenco</a>.</p><p> Pour ce client j'ai du modéliser la base de donnée des produits et leur inter-compatibilitées. J'ai ensuite pu construire l'application afin que les utilisateurs puissent rechercher un filtre industriel en fonction des contraintes de leur environnement.</p><p>Ce site utilise le <a href='https://github.com/bpesquet/Framework-MVC'>Framework MVC</a> vu en cours de sciences de l'information de <a href='http://www.bpesquet.fr/'>Mr Pesquet</a>.</p>",
+      "description": "<p>SMTP application in Java using Java sockets.</p>",
       "sources": "https://github.com/achaussende/tp-igp-smtp",
       "logo": {
-        "title": "POP3",
+        "title": "SMTP",
         "url": "public/img/gmail.png"
       },
       "labels": "<span class='label label-danger'>Java</span>&nbsp;<span class='label label-danger'>SSL Socket</span>&nbsp;<span class='label label-info'>En Equipe</span>"
@@ -205,6 +205,17 @@
         "url": "public/img/tetris.jpg"
       },
       "labels": "<span class='label label-danger'>Java</span>&nbsp;<span class='label label-info'>In pairs</span>"
+    },
+    "velovBI": {
+      "name": "Business intelligence about Vélo'v",
+      "date": "October 2015",
+      "description": "<p>Work in groups on JCDECAUX public datas.</p><p><ul><li>Creation of a data warehouse</li><li>Data mining with QlikSense and R.</li></ul></p>",
+      "sources": "public/views/Presentation.html",
+      "logo": {
+        "title": "Bi",
+        "url": "public/img/schema_etapes.png"
+      },
+      "labels": "<span class='label label-info'>R</span>&nbsp;<span class='label label-success'>In group</span>"
     }
   }
 }
